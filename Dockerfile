@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN echo "this is a test"
+RUN echo "this is a test, cheers from $(whoami)"
